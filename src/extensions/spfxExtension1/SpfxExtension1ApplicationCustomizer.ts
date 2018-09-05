@@ -6,9 +6,7 @@ import {
   PlaceholderContent,
   PlaceholderName
 } from '@microsoft/sp-application-base';
-import { Dialog } from '@microsoft/sp-dialog';
 import * as strings from 'SpfxExtension1ApplicationCustomizerStrings';
-import {escape} from '@microsoft/sp-lodash-subset';
 const LOG_SOURCE: string = 'SpfxExtension1ApplicationCustomizer';
 
 /**
@@ -54,11 +52,26 @@ export default class SpfxExtension1ApplicationCustomizer
       }
 
       if(this._bottomPlaceholder.domElement){
-      this._bottomPlaceholder.domElement.innerHTML=`<div class="${styles.app}">
-      <div class="${styles.bottom}">
-        <i class="ms-Icon ms-Icon--Info" aria-hidden="true"></i> bottom
-      </div>
-    </div>`;
+        this._bottomPlaceholder.domElement.innerHTML=`
+        <div class="${styles.app}">
+          <div class="${styles.bottom}">
+              <ul>
+                <li><a href="#">Our Company</a></li>
+                <li><a href="#">Our News</a></li>
+                <li><a href="#">ESOP</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Hot Projects</a></li>
+                <li><a href="#">Calendar</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Forms</a></li>
+                <li><a href="#">Bulletin</a></li>
+              </ul>
+          </div>
+        </div>
+        `;
       }
     }
   }

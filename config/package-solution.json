@@ -1,13 +1,13 @@
 {
   "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "spfx-extension-1-client-side-solution",
+    "name": "footer-client-side-solution",
     "id": "b643860d-452c-4477-964a-a2222207f71a",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "features": [
       {
-        "title": "Application Extension - Deployment of custom action.",
+        "title": "Footer - Deployment of custom action.",
         "description": "Deploys a custom action with ClientSideComponentId association",
         "id": "2c6a3cda-d0f2-4000-9e37-ec0c0b339939",
         "version": "1.0.0.0",
@@ -20,6 +20,6 @@
     ]
   },
   "paths": {
-    "zippedPackage": "solution/spfx-extension-1.sppkg"
+    "zippedPackage": "solution/footer.sppkg"
   }
 }

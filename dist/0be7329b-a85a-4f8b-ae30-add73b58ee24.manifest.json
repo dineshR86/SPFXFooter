@@ -18,7 +18,8 @@
       },
       "SpfxExtension1ApplicationCustomizerStrings": {
         "defaultPath": "lib/extensions/spfxExtension1/loc/en-us.js",
-        "type": "localizedPath"
+        "type": "localizedPath",
+        "paths": {}
       },
       "@microsoft/decorators": {
         "type": "component",
