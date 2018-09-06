@@ -56,18 +56,18 @@ export default class SpfxExtension1ApplicationCustomizer
         <div class="${styles.app}">
           <div class="${styles.bottom}">
               <ul>
-                <li><a href="#">Our Company</a></li>
-                <li><a href="#">Our News</a></li>
-                <li><a href="#">ESOP</a></li>
+                <li><a traget="_blank" href="#">Our Company</a></li>
+                <li><a traget="_blank" href="#">Our News</a></li>
+                <li><a traget="_blank" href="#">ESOP</a></li>
               </ul>
               <ul>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Hot Projects</a></li>
-                <li><a href="#">Calendar</a></li>
+                <li><a traget="_blank" href="#">News</a></li>
+                <li><a traget="_blank" href="#">Hot Projects</a></li>
+                <li><a traget="_blank" href="#">Calendar</a></li>
               </ul>
               <ul>
-                <li><a href="#">Forms</a></li>
-                <li><a href="#">Bulletin</a></li>
+                <li><a traget="_blank" href="#">Forms</a></li>
+                <li><a traget="_blank" href="#">Bulletin</a></li>
               </ul>
           </div>
         </div>
